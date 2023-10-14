@@ -1,0 +1,18 @@
+{
+    "name": "korek/korek",
+    "authors": [
+        {
+            "name": "Emmanuel SUY",
+            "email": "suyemmanuel@s2telsolutions.ca"
+        }
+    ],
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ecelestin/ecelestin-Moncash-sdk-php.git"
+        }
+    ],
+    "require": {
+		"dgcgroup/moncash-php-sdk":"dev-master"
+	}
+}

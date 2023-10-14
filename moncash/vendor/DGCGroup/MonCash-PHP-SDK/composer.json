@@ -1,0 +1,46 @@
+{
+    "name": "DGCGroup/MonCash-PHP-SDK",
+    "type": "library",
+    "description": "PHP SDK for payment using MonCash on PHP",
+    "keywords": [
+        "DGCGroup",
+        "MonCash-PHP-SDK"
+    ],
+    "homepage": "https://github.com/DGCGroup/MonCash-PHP-SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "rulxphilome.alexis@gmail.com",
+            "homepage": "https://github.com/rpalexis",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "DGCGroup\\MonCashPHPSDK\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DGCGroup\\MonCashPHPSDK\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs src tests",
+        "fix-style": "phpcbf src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
